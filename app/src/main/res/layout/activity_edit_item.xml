@@ -67,11 +67,12 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="Item details"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
